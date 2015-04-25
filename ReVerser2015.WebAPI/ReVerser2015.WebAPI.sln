@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReVerser2015.WebAPI.Common", "ReVerser2015.WebAPI.Common\ReVerser2015.WebAPI.Common.csproj", "{BA8AC5B9-5C2B-4A14-BD31-7EDA9EE3182C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReVerser2015.WebAPI.MyMail", "ReVerser2015.WebAPI.MyMail\ReVerser2015.WebAPI.MyMail.csproj", "{0A504FB9-9E64-4A44-A6D7-CBA74BB1974D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReVerser2015.WebAPI.MyMail Test", "ReVerser2015.WebAPI.MyMail Test\ReVerser2015.WebAPI.MyMail Test.csproj", "{081A2DAC-6550-4422-9411-CC4563457F55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA8AC5B9-5C2B-4A14-BD31-7EDA9EE3182C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8AC5B9-5C2B-4A14-BD31-7EDA9EE3182C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA8AC5B9-5C2B-4A14-BD31-7EDA9EE3182C}.Debug|x86.ActiveCfg = Debug|x86
+		{BA8AC5B9-5C2B-4A14-BD31-7EDA9EE3182C}.Debug|x86.Build.0 = Debug|x86
+		{BA8AC5B9-5C2B-4A14-BD31-7EDA9EE3182C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8AC5B9-5C2B-4A14-BD31-7EDA9EE3182C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA8AC5B9-5C2B-4A14-BD31-7EDA9EE3182C}.Release|x86.ActiveCfg = Release|x86
+		{BA8AC5B9-5C2B-4A14-BD31-7EDA9EE3182C}.Release|x86.Build.0 = Release|x86
+		{0A504FB9-9E64-4A44-A6D7-CBA74BB1974D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A504FB9-9E64-4A44-A6D7-CBA74BB1974D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A504FB9-9E64-4A44-A6D7-CBA74BB1974D}.Debug|x86.ActiveCfg = Debug|x86
+		{0A504FB9-9E64-4A44-A6D7-CBA74BB1974D}.Debug|x86.Build.0 = Debug|x86
+		{0A504FB9-9E64-4A44-A6D7-CBA74BB1974D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A504FB9-9E64-4A44-A6D7-CBA74BB1974D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A504FB9-9E64-4A44-A6D7-CBA74BB1974D}.Release|x86.ActiveCfg = Release|Any CPU
+		{081A2DAC-6550-4422-9411-CC4563457F55}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{081A2DAC-6550-4422-9411-CC4563457F55}.Debug|x86.ActiveCfg = Debug|x86
+		{081A2DAC-6550-4422-9411-CC4563457F55}.Debug|x86.Build.0 = Debug|x86
+		{081A2DAC-6550-4422-9411-CC4563457F55}.Release|Any CPU.ActiveCfg = Release|x86
+		{081A2DAC-6550-4422-9411-CC4563457F55}.Release|x86.ActiveCfg = Release|x86
+		{081A2DAC-6550-4422-9411-CC4563457F55}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+D:\Проекты МЕГА\ReVerser2015\ReVerser2015.WebAPI\ReVerser2015.WebAPI.Common\bin\x86\Debug\ReVerser2015.WebAPI.Common.dll
+D:\Проекты МЕГА\ReVerser2015\ReVerser2015.WebAPI\ReVerser2015.WebAPI.Common\bin\x86\Debug\ReVerser2015.WebAPI.Common.pdb
+D:\Проекты МЕГА\ReVerser2015\ReVerser2015.WebAPI\ReVerser2015.WebAPI.Common\obj\x86\Debug\ReVerser2015.WebAPI.Common.dll
+D:\Проекты МЕГА\ReVerser2015\ReVerser2015.WebAPI\ReVerser2015.WebAPI.Common\obj\x86\Debug\ReVerser2015.WebAPI.Common.pdb
+D:\Проекты МЕГА\ReVerser2015\ReVerser2015.WebAPI\ReVerser2015.WebAPI.Common\obj\x86\Debug\ReVerser2015.WebAPI.Common.csprojResolveAssemblyReference.cache

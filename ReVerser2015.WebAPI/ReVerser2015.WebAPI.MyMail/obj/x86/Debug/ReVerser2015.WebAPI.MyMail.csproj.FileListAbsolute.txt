@@ -1,0 +1,8 @@
+D:\Проекты МЕГА\ReVerser2015\ReVerser2015.WebAPI\ReVerser2015.WebAPI.MyMail\bin\x86\Debug\ReVerser2015.WebAPI.MyMail.dll
+D:\Проекты МЕГА\ReVerser2015\ReVerser2015.WebAPI\ReVerser2015.WebAPI.MyMail\bin\x86\Debug\ReVerser2015.WebAPI.MyMail.pdb
+D:\Проекты МЕГА\ReVerser2015\ReVerser2015.WebAPI\ReVerser2015.WebAPI.MyMail\obj\x86\Debug\ReVerser2015.WebAPI.MyMail.dll
+D:\Проекты МЕГА\ReVerser2015\ReVerser2015.WebAPI\ReVerser2015.WebAPI.MyMail\obj\x86\Debug\ReVerser2015.WebAPI.MyMail.pdb
+D:\Проекты МЕГА\ReVerser2015\ReVerser2015.WebAPI\ReVerser2015.WebAPI.MyMail\obj\x86\Debug\ReVerser2015.WebAPI.MyMail.csprojResolveAssemblyReference.cache
+D:\Проекты МЕГА\ReVerser2015\ReVerser2015.WebAPI\ReVerser2015.WebAPI.MyMail\bin\x86\Debug\Newtonsoft.Json.dll
+D:\Проекты МЕГА\ReVerser2015\ReVerser2015.WebAPI\ReVerser2015.WebAPI.MyMail\bin\x86\Debug\ReVerser2015.WebAPI.Common.dll
+D:\Проекты МЕГА\ReVerser2015\ReVerser2015.WebAPI\ReVerser2015.WebAPI.MyMail\bin\x86\Debug\ReVerser2015.WebAPI.Common.pdb
