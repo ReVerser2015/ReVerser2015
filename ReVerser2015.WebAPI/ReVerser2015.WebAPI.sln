@@ -1,41 +1,66 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C# Express 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReVerser2015.WebAPI.Common", "ReVerser2015.WebAPI.Common\ReVerser2015.WebAPI.Common.csproj", "{BA8AC5B9-5C2B-4A14-BD31-7EDA9EE3182C}"
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReVerser2015.WebAPI", "ReVerser2015.WebAPI\ReVerser2015.WebAPI.csproj", "{9B74F770-F7C5-41C3-9743-6D618F723727}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReVerser2015.WebAPI.MyMail", "ReVerser2015.WebAPI.MyMail\ReVerser2015.WebAPI.MyMail.csproj", "{0A504FB9-9E64-4A44-A6D7-CBA74BB1974D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReVerser2015.WebAPI Demo", "ReVerser2015.WebAPI Demo\ReVerser2015.WebAPI Demo.csproj", "{E791EEC8-FDE9-4A90-8B65-7C430A6845CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReVerser2015.WebAPI.MyMail Test", "ReVerser2015.WebAPI.MyMail Test\ReVerser2015.WebAPI.MyMail Test.csproj", "{081A2DAC-6550-4422-9411-CC4563457F55}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReVerser2015.WebAPI.YandexSearch", "ReVerser2015.WebAPI.YandexSearch\ReVerser2015.WebAPI.YandexSearch.csproj", "{7A1BAC03-0F09-46FD-B439-A85FFF4D2BEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReVerser2015.WebAPI.YandexSearch Demo", "ReVerser2015.WebAPI.YandexSearch Demo\ReVerser2015.WebAPI.YandexSearch Demo.csproj", "{E11B55D2-8C83-42B9-9A2C-E13AEAC6FF1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReVerser2015.WebAPI.VK", "ReVerser2015.WebAPI.VK\ReVerser2015.WebAPI.VK.csproj", "{7847EDF0-61F0-4439-93EF-2F291CA11576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReVerser2015.WebAPI.VK Demo", "ReVerser2015.WebAPI.VK Demo\ReVerser2015.WebAPI.VK Demo.csproj", "{5D253C8C-3CA9-401F-BA54-A1260CCE5B4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReVerser2015.WebAPI.UI.WinForms", "ReVerser2015.WebAPI.UI.WinForms\ReVerser2015.WebAPI.UI.WinForms.csproj", "{E6B42DF8-87F5-49ED-86BE-FDE73D2B4653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReVerser2015.WebAPI.UI.WinForms Demo", "ReVerser2015.WebAPI.UI.WinForms Demo\ReVerser2015.WebAPI.UI.WinForms Demo.csproj", "{C83ABEBB-B117-4EF7-BB43-8CEB8AFA9818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReVerser2015.WebAPI.GoogleSearch", "ReVerser2015.WebAPI.GoogleSearch\ReVerser2015.WebAPI.GoogleSearch.csproj", "{94B95B76-9472-4390-B4FF-768573C1943E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BA8AC5B9-5C2B-4A14-BD31-7EDA9EE3182C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BA8AC5B9-5C2B-4A14-BD31-7EDA9EE3182C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BA8AC5B9-5C2B-4A14-BD31-7EDA9EE3182C}.Debug|x86.ActiveCfg = Debug|x86
-		{BA8AC5B9-5C2B-4A14-BD31-7EDA9EE3182C}.Debug|x86.Build.0 = Debug|x86
-		{BA8AC5B9-5C2B-4A14-BD31-7EDA9EE3182C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BA8AC5B9-5C2B-4A14-BD31-7EDA9EE3182C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BA8AC5B9-5C2B-4A14-BD31-7EDA9EE3182C}.Release|x86.ActiveCfg = Release|x86
-		{BA8AC5B9-5C2B-4A14-BD31-7EDA9EE3182C}.Release|x86.Build.0 = Release|x86
-		{0A504FB9-9E64-4A44-A6D7-CBA74BB1974D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0A504FB9-9E64-4A44-A6D7-CBA74BB1974D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0A504FB9-9E64-4A44-A6D7-CBA74BB1974D}.Debug|x86.ActiveCfg = Debug|x86
-		{0A504FB9-9E64-4A44-A6D7-CBA74BB1974D}.Debug|x86.Build.0 = Debug|x86
-		{0A504FB9-9E64-4A44-A6D7-CBA74BB1974D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0A504FB9-9E64-4A44-A6D7-CBA74BB1974D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0A504FB9-9E64-4A44-A6D7-CBA74BB1974D}.Release|x86.ActiveCfg = Release|Any CPU
-		{081A2DAC-6550-4422-9411-CC4563457F55}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{081A2DAC-6550-4422-9411-CC4563457F55}.Debug|x86.ActiveCfg = Debug|x86
-		{081A2DAC-6550-4422-9411-CC4563457F55}.Debug|x86.Build.0 = Debug|x86
-		{081A2DAC-6550-4422-9411-CC4563457F55}.Release|Any CPU.ActiveCfg = Release|x86
-		{081A2DAC-6550-4422-9411-CC4563457F55}.Release|x86.ActiveCfg = Release|x86
-		{081A2DAC-6550-4422-9411-CC4563457F55}.Release|x86.Build.0 = Release|x86
+		{9B74F770-F7C5-41C3-9743-6D618F723727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B74F770-F7C5-41C3-9743-6D618F723727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B74F770-F7C5-41C3-9743-6D618F723727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B74F770-F7C5-41C3-9743-6D618F723727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E791EEC8-FDE9-4A90-8B65-7C430A6845CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E791EEC8-FDE9-4A90-8B65-7C430A6845CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E791EEC8-FDE9-4A90-8B65-7C430A6845CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E791EEC8-FDE9-4A90-8B65-7C430A6845CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A1BAC03-0F09-46FD-B439-A85FFF4D2BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A1BAC03-0F09-46FD-B439-A85FFF4D2BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A1BAC03-0F09-46FD-B439-A85FFF4D2BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A1BAC03-0F09-46FD-B439-A85FFF4D2BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E11B55D2-8C83-42B9-9A2C-E13AEAC6FF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E11B55D2-8C83-42B9-9A2C-E13AEAC6FF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E11B55D2-8C83-42B9-9A2C-E13AEAC6FF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E11B55D2-8C83-42B9-9A2C-E13AEAC6FF1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7847EDF0-61F0-4439-93EF-2F291CA11576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7847EDF0-61F0-4439-93EF-2F291CA11576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7847EDF0-61F0-4439-93EF-2F291CA11576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7847EDF0-61F0-4439-93EF-2F291CA11576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D253C8C-3CA9-401F-BA54-A1260CCE5B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D253C8C-3CA9-401F-BA54-A1260CCE5B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D253C8C-3CA9-401F-BA54-A1260CCE5B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D253C8C-3CA9-401F-BA54-A1260CCE5B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6B42DF8-87F5-49ED-86BE-FDE73D2B4653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6B42DF8-87F5-49ED-86BE-FDE73D2B4653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6B42DF8-87F5-49ED-86BE-FDE73D2B4653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6B42DF8-87F5-49ED-86BE-FDE73D2B4653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C83ABEBB-B117-4EF7-BB43-8CEB8AFA9818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C83ABEBB-B117-4EF7-BB43-8CEB8AFA9818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C83ABEBB-B117-4EF7-BB43-8CEB8AFA9818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C83ABEBB-B117-4EF7-BB43-8CEB8AFA9818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B95B76-9472-4390-B4FF-768573C1943E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B95B76-9472-4390-B4FF-768573C1943E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B95B76-9472-4390-B4FF-768573C1943E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B95B76-9472-4390-B4FF-768573C1943E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

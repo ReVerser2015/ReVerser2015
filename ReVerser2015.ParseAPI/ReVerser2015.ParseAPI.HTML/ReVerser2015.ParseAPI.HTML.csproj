@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FFF85DA6-3558-455A-800B-702DB430A4F7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ReVerser2015.ParseAPI.HTML</RootNamespace>
+    <AssemblyName>ReVerser2015.ParseAPI.HTML</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="crc32.cs" />
+    <Compile Include="EncodingFoundException.cs" />
+    <Compile Include="HTMLAttribute.cs" />
+    <Compile Include="HTMLAttributeCollection.cs" />
+    <Compile Include="HTMLCmdLine.cs" />
+    <Compile Include="HTMLCommentNode.cs" />
+    <Compile Include="HTMLConsoleListener.cs" />
+    <Compile Include="HTMLDocument.cs" />
+    <Compile Include="HTMLDocument.PathMethods.cs" />
+    <Compile Include="HTMLDocument.Xpath.cs" />
+    <Compile Include="HTMLElementFlag.cs" />
+    <Compile Include="HTMLEntity.cs" />
+    <Compile Include="HTMLNameTable.cs" />
+    <Compile Include="HTMLNode.cs" />
+    <Compile Include="HTMLNode.Xpath.cs" />
+    <Compile Include="HTMLNodeCollection.cs" />
+    <Compile Include="HTMLNodeNavigator.cs" />
+    <Compile Include="HTMLNodeType.cs" />
+    <Compile Include="HTMLParseError.cs" />
+    <Compile Include="HTMLParseErrorCode.cs" />
+    <Compile Include="HTMLTextNode.cs" />
+    <Compile Include="HTMLWeb.cs" />
+    <Compile Include="HTMLWeb.Xpath.cs" />
+    <Compile Include="HTMLWebException.cs" />
+    <Compile Include="IOLibrary.cs" />
+    <Compile Include="MixedCodeDocument.cs" />
+    <Compile Include="MixedCodeDocumentCodeFragment.cs" />
+    <Compile Include="MixedCodeDocumentFragment.cs" />
+    <Compile Include="MixedCodeDocumentFragmentList.cs" />
+    <Compile Include="MixedCodeDocumentFragmentType.cs" />
+    <Compile Include="MixedCodeDocumentTextFragment.cs" />
+    <Compile Include="NameValuePair.cs" />
+    <Compile Include="NameValuePairList.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Trace.cs" />
+    <Compile Include="Trace.FullFramework.cs" />
+    <Compile Include="Utilities.cs" />
+    <Compile Include="XPath2\EndsWithFunction.cs" />
+    <Compile Include="XPath2\LowerCaseFunction.cs" />
+    <Compile Include="XPath2\XPath2Context.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

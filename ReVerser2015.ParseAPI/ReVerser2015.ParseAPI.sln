@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReVerser2015.ParseAPI.JSON", "ReVerser2015.ParseAPI.JSON\ReVerser2015.ParseAPI.JSON.csproj", "{677A37AB-CF31-4146-B585-0155D663D48E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReVerser2015.ParseAPI.JSON Demo", "ReVerser2015.ParseAPI.JSON Demo\ReVerser2015.ParseAPI.JSON Demo.csproj", "{C22282A7-A6FA-49D9-8A54-A3DC2E8FCB49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReVerser2015.ParseAPI.HTML", "ReVerser2015.ParseAPI.HTML\ReVerser2015.ParseAPI.HTML.csproj", "{FFF85DA6-3558-455A-800B-702DB430A4F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReVerser2015.ParseAPI.HTML Demo", "ReVerser2015.ParseAPI.HTML Demo\ReVerser2015.ParseAPI.HTML Demo.csproj", "{EF83C025-B58B-4AAB-81BE-B500013632E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{677A37AB-CF31-4146-B585-0155D663D48E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{677A37AB-CF31-4146-B585-0155D663D48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{677A37AB-CF31-4146-B585-0155D663D48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{677A37AB-CF31-4146-B585-0155D663D48E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C22282A7-A6FA-49D9-8A54-A3DC2E8FCB49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22282A7-A6FA-49D9-8A54-A3DC2E8FCB49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22282A7-A6FA-49D9-8A54-A3DC2E8FCB49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22282A7-A6FA-49D9-8A54-A3DC2E8FCB49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF85DA6-3558-455A-800B-702DB430A4F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF85DA6-3558-455A-800B-702DB430A4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF85DA6-3558-455A-800B-702DB430A4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF85DA6-3558-455A-800B-702DB430A4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF83C025-B58B-4AAB-81BE-B500013632E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF83C025-B58B-4AAB-81BE-B500013632E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF83C025-B58B-4AAB-81BE-B500013632E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF83C025-B58B-4AAB-81BE-B500013632E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
